@@ -1,0 +1,7 @@
+noise(1,1).thresh()
+.layer(shape(9,[.15,.78,1,0].smooth(),0).scale(1,.60).modulate(o0,.5).luma())
+.scale(.95,1)
+.blend(o0).blend(o0).blend(o0)
+.colorama([0.15,0.05,.00001].fast(1).smooth())
+.modulateHue(o0,10)
+.out(o0)
